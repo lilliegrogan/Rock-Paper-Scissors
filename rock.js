@@ -1,3 +1,4 @@
+//computerPlay function has computer pick a random number and assins it to rock paper or scissors
 function computerPlay() {
     const randomNumber = Math.floor(Math.random() * 3);
       if (randomNumber === 0){
@@ -23,21 +24,12 @@ function userChoice(){
     } else {
         console.log("invalid choice");
     }
-    return user
-    //console.log("Your choice is: " + user);  
+    return user 
 }
-
-//userChoice();
-//computerPlay();
-//console.log("Computer played: " + computerPlay());
-
 
 
 let playerSelection = userChoice();
-
 let computerSelection = computerPlay();
-//console.log(playerSelection)
-//console.log(computerSelection)
 
 // playRound function tells the program the rules behind winning and losing
 function playRound(){
